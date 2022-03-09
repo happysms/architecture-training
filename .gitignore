@@ -1,2 +1,3 @@
 .env
-chap5/__pycache__/
+/chap5/__pycache__/
+.idea
