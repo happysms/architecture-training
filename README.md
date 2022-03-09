@@ -183,14 +183,15 @@ def allocate_endpoint():
 
 - UoW가 없는 경우: API는 세 가지 계층과 직접 대화 가능
 
-![img.png](None_UoW.png)
+![None_UoW](https://user-images.githubusercontent.com/70648382/157381454-b5eee21f-9228-4805-935f-f533adbee457.png)
 
 
 - UoW가 있는 경우: 이제 UoW가 데이터베이스 상태 관리
   - 플라스크의 일: 작업 단위 초기화, 서비스를 호출
-  - 서비스는 UoW와 협력하지만 서비스 함수 자체나 플라스크는 이제 데이터베이스와 직접 대화하지 않는다.
+  - 서비스는 UoW와
+ 협력하지만 서비스 함수 자체나 플라스크는 이제 데이터베이스와 직접 대화하지 않는다.
 
-![img_1.png](UoW.png)
+![UoW](https://user-images.githubusercontent.com/70648382/157381533-d1d64b04-1a1a-47e9-9750-d2ce5a03d2cc.png)
 
 
 ## 6.1 작업 단위는 저장소와 협력
